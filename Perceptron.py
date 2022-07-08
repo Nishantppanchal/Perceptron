@@ -46,6 +46,8 @@ def Game():
             jmss.drawText("It a X!",0,0)
         if prediction == 0:
             jmss.drawText("It is a O!",0,0)
+    else: 
+        jmss.drawText("Press enter to show prediction and press backspace to clear pixels",0,0)
         
     for x in range(n):
         for y in range(n):

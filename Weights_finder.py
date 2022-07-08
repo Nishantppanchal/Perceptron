@@ -5,6 +5,8 @@ import os
 
 
 def findWeights():
+    print("Training")
+    
     # put training data there.
     training_data = []
 

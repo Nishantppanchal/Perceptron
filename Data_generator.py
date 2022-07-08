@@ -37,6 +37,9 @@ def Game():
     if jmss.isKeyDown(KEY_SPACE):
         pressed = True
 
+    if jmss.isKeyDown(KEY_BACKSPACE):
+        pixels = [0] * n * n
+        
     if pressed:
         jmss.drawText("Press X if it a X or O if it is a O",0,0)
         xPressed = jmss.isKeyDown(KEY_X)
@@ -49,6 +52,8 @@ def Game():
                 pickle.dump(data_list, fp)
             pixels = [0] * n * n
             pressed = False
+    else:
+        jmss.drawText("Press space to lock in shape or backspace to clear pixels",0,0)
 
     for x in range(n):
         for y in range(n):

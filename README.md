@@ -7,4 +7,4 @@ Libraries used:
 
 [See it in action on Replit](https://replit.com/@NishantP13/Perceptron?lite=true)
 
-Note the laggy expirence is due to limit computing power on replit, not the program itself.
+Note the laggy expirence is due to very limited computing power on replit, not the program itself.
